@@ -94,6 +94,11 @@ h6 {
   margin: 0 auto;
 }
 
+.closeBtn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
