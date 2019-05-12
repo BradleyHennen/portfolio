@@ -159,7 +159,13 @@ h6 {
 }
 
 .lyrassist {
-  width: 530px;
+  width: 560px;
+  height: 369px;
+  opacity: .5;
+}
+
+.lego {
+  width: 560px;
   height: 369px;
   opacity: .5;
 }
