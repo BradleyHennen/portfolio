@@ -14,7 +14,7 @@ body {
 
 .content-section {
   padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: 5rem;
 }
 
 .content-section-heading h2 {
@@ -176,7 +176,7 @@ h6 {
 
 .todo {
   width: 580px;
-  height: 369px;
+  height: 370px;
   opacity: .5;
 }
 
