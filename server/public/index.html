@@ -34,7 +34,8 @@
       <h3 class="header mb-5">
         <em>Full Stack Software Engineer</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger button" href="#about">About Me</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger button" href="#contact">Contact Me</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -44,7 +45,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+          <h2></h2>
           <p class="lead mb-5">A passionate problem solver seeking to immerse myself into an industry where I can use
             technology to heighten the daily lives of the world around me. My constant curiosity and always-learning
             disposition fuel my drive to succeed in the development field.</p>
@@ -134,7 +135,7 @@
 
     </div>
 
-
+    <!-- Projects -->
     <section class="content-section bg-primary text-white text-center">
       <div class="container">
         <div class="content-section-heading text-center">
@@ -143,27 +144,36 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="https://github.com/BradleyHennen/Lyrassist" target="_blank">
+            <div class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
                   <h1>LyrAssist</h1>
                   <h4 class="mb-0">LyrAssist helps writers find that next word or phrase as well as the creating and
-                    saving their lyrics</h4>
+                    saving their lyrics
+                  </h4>
+                  <button type="button" class="btn btn-primary button" data-toggle="modal"
+                    data-target="#lyrassistModal">
+                    View
+                  </button>
                 </span>
               </span>
               <img class="lyrassist img-fluid" src="img/microphone.jpg" alt="">
-            </a>
+            </div>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <div class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
                   <h1>HighTech Kids</h1>
-                  <h4 class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</h4>
+                  <h4 class="mb-0">First Lego League Tournament rules, scoring, and team tracker application</h4>
+                  <button type="button" class="btn btn-primary button" data-toggle="modal"
+                    data-target="#highTechKidsModal">
+                    View
+                  </button>
                 </span>
               </span>
               <img class="lego img-fluid" src="img/lego.jpg" alt="">
-            </a>
+            </div>
           </div>
           <div class="col-lg-6">
             <a class="portfolio-item" href="https://github.com/BradleyHennen/student-feedback" target="_blank">
@@ -171,6 +181,10 @@
                 <span class="caption-content">
                   <h1>Student Feedback Form</h1>
                   <h4 class="mb-0">Stores student submissions on admin page. Can be either flagged or deleted.</h4>
+                  <button type="button" class="btn btn-primary button" data-toggle="modal"
+                    data-target="#feedbackFormModal">
+                    View
+                  </button>
                 </span>
               </span>
               <img class="feedback img-fluid" src="img/feedback.jpg" alt="">
@@ -182,7 +196,11 @@
                 <span class="caption-content">
                   <h1>To Do List</h1>
                   <h4 class="mb-0">Create a to do list with due dates. To do items can be marked as completed and/or
-                    deleted.</h4>
+                    deleted.
+                  </h4>
+                  <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#toDoListModal">
+                    View
+                  </button>
                 </span>
               </span>
               <img class="todo img-fluid" src="img/todo.jpg" alt="">
@@ -195,7 +213,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <h2>Contact Me</h2>
       </br>
@@ -261,6 +279,25 @@
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
+
+  <!-- Modals -->
+  <div class="modal fade" id="lyrassistModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LyrAssist</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modalAlign">
+          <button class="btn btn-primary button">Deployed Website</button>
+          <button class="btn btn-primary button">GitHub Repo</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
