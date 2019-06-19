@@ -188,6 +188,16 @@ h6 {
   opacity: .5;
 }
 
+.pets {
+  width: 580px;
+  height: 370px;
+  opacity: .5;
+}
+
+#projects {
+  margin: 20px;
+}
+
 .portfolio-item {
   display: block;
   position: relative;
